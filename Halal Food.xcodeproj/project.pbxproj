@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		668BE8D4B902BDE184D783D7 /* Pods_Halal_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98CF53A68832F99496536A /* Pods_Halal_Food.framework */; };
+		D6331A6D29C9209000AE1030 /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6331A6C29C9209000AE1030 /* DiscoverTableViewCell.swift */; };
+		D6331BC129A8318500B1A96B /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6331BC029A8318500B1A96B /* RestaurantTableViewCell.swift */; };
+		D63A807329A6464B00D65DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A807229A6464B00D65DBC /* AppDelegate.swift */; };
+		D63A807529A6464B00D65DBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A807429A6464B00D65DBC /* SceneDelegate.swift */; };
+		D63A807A29A6464B00D65DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63A807829A6464B00D65DBC /* Main.storyboard */; };
+		D63A807C29A6464C00D65DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D63A807B29A6464C00D65DBC /* Assets.xcassets */; };
+		D63A807F29A6464C00D65DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63A807D29A6464C00D65DBC /* LaunchScreen.storyboard */; };
+		D63A808729A6476700D65DBC /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A808629A6476700D65DBC /* RestaurantTableViewController.swift */; };
+		D6444A0029AECE270035FC23 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64449FF29AECE270035FC23 /* RoundedTextField.swift */; };
+		D6444A0229AED0EF0035FC23 /* NewRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6444A0129AED0EF0035FC23 /* NewRestaurantController.swift */; };
+		D64F3D0D29C9CA7B00A3C7AA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D64F3D0B29C9CA7B00A3C7AA /* Localizable.strings */; };
+		D65B407129ACAF41006F1A0B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65B407029ACAF41006F1A0B /* NavigationController.swift */; };
+		D661258C29AC940B009103C1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661258B29AC940B009103C1 /* UIColorExtension.swift */; };
+		D661466629ACD05C00655052 /* RestaurantDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661466529ACD05C00655052 /* RestaurantDetailMapCell.swift */; };
+		D661466829ACE9CD00655052 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D661466729ACE9CD00655052 /* MapViewController.swift */; };
+		D662B10C29B8AE8400DE2BD5 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D662B10B29B8AE8400DE2BD5 /* DiscoverTableViewController.swift */; };
+		D674D56D29B685D700979E9C /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674D56C29B685D700979E9C /* WalkthroughPageViewController.swift */; };
+		D674D56F29B68AFA00979E9C /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674D56E29B68AFA00979E9C /* WalkthroughViewController.swift */; };
+		D6775CA729ADD626003DA003 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6775CA629ADD626003DA003 /* ReviewViewController.swift */; };
+		D6784BF229BFEA350021392E /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6784BF129BFEA350021392E /* Discover.swift */; };
+		D6789D6329B5F1C2000AA824 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6789D6229B5F1C2000AA824 /* Onboarding.storyboard */; };
+		D67927E829B609DE00EF53B1 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67927E729B609DE00EF53B1 /* WalkthroughContentViewController.swift */; };
+		D679BDFC29AB22F5008AD526 /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679BDFB29AB22F5008AD526 /* RestaurantDetailViewController.swift */; };
+		D67CEE3529AB773300EDB570 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2529AB773300EDB570 /* Nunito-Italic.ttf */; };
+		D67CEE3629AB773300EDB570 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2629AB773300EDB570 /* Nunito-BlackItalic.ttf */; };
+		D67CEE3729AB773300EDB570 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2729AB773300EDB570 /* Nunito-LightItalic.ttf */; };
+		D67CEE3829AB773300EDB570 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2829AB773300EDB570 /* Nunito-Regular.ttf */; };
+		D67CEE3929AB773300EDB570 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2929AB773300EDB570 /* Nunito-SemiBoldItalic.ttf */; };
+		D67CEE3A29AB773300EDB570 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2A29AB773300EDB570 /* Nunito-Light.ttf */; };
+		D67CEE3B29AB773300EDB570 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2B29AB773300EDB570 /* Nunito-Medium.ttf */; };
+		D67CEE3C29AB773300EDB570 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2C29AB773300EDB570 /* Nunito-ExtraLightItalic.ttf */; };
+		D67CEE3D29AB773300EDB570 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2D29AB773300EDB570 /* Nunito-ExtraBold.ttf */; };
+		D67CEE3E29AB773300EDB570 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2E29AB773300EDB570 /* Nunito-Black.ttf */; };
+		D67CEE3F29AB773300EDB570 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE2F29AB773300EDB570 /* Nunito-ExtraLight.ttf */; };
+		D67CEE4029AB773300EDB570 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE3029AB773300EDB570 /* Nunito-Bold.ttf */; };
+		D67CEE4129AB773300EDB570 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE3129AB773300EDB570 /* Nunito-BoldItalic.ttf */; };
+		D67CEE4229AB773300EDB570 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE3229AB773300EDB570 /* Nunito-MediumItalic.ttf */; };
+		D67CEE4329AB773300EDB570 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE3329AB773300EDB570 /* Nunito-SemiBold.ttf */; };
+		D67CEE4429AB773300EDB570 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D67CEE3429AB773300EDB570 /* Nunito-ExtraBoldItalic.ttf */; };
+		D67CEE4629AB7E6600EDB570 /* RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CEE4529AB7E6600EDB570 /* RestaurantDetailHeaderView.swift */; };
+		D67CEE4829AB93BD00EDB570 /* RestaurantDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CEE4729AB93BD00EDB570 /* RestaurantDetailTextCell.swift */; };
+		D67CEE4A29AB973600EDB570 /* RestaurantDetailTwoColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67CEE4929AB973600EDB570 /* RestaurantDetailTwoColumnCell.swift */; };
+		D682A4F829B884840057A10E /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682A4F729B884840057A10E /* AboutTableViewController.swift */; };
+		D682A4FA29B88F340057A10E /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682A4F929B88F340057A10E /* WebViewController.swift */; };
+		D68D84CB29BD13A3004DC5DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D68D84CA29BD13A3004DC5DB /* GoogleService-Info.plist */; };
+		D6AE21F729B77A0C003D44F7 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE21F529B77A0C003D44F7 /* About.storyboard */; };
+		D6B84F0329B77D2900A378BE /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B84F0129B77D2900A378BE /* Discover.storyboard */; };
+		D6D2F3F929B3082400BFEC84 /* HalalFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6D2F3F729B3082400BFEC84 /* HalalFood.xcdatamodeld */; };
+		D6DAAB6429A8F9C300409845 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DAAB6329A8F9C300409845 /* Restaurant.swift */; };
+		D6E5F1F829AA4BFA00892C63 /* RestaurantDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E5F1F729AA4BFA00892C63 /* RestaurantDiffableDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EF4E5FE28309522A84FDA44 /* Pods-Halal Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Halal Food.debug.xcconfig"; path = "Target Support Files/Pods-Halal Food/Pods-Halal Food.debug.xcconfig"; sourceTree = "<group>"; };
+		6C98CF53A68832F99496536A /* Pods_Halal_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Halal_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77045AB242DED41112A8E47C /* Pods-Halal Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Halal Food.release.xcconfig"; path = "Target Support Files/Pods-Halal Food/Pods-Halal Food.release.xcconfig"; sourceTree = "<group>"; };
+		D6331A6C29C9209000AE1030 /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
+		D6331BC029A8318500B1A96B /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		D63561AB29C945BE00F14B2C /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = "Halal Food/Storyboard/id.lproj/About.strings"; sourceTree = "<group>"; };
+		D63561AC29C945BF00F14B2C /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = "Halal Food/Storyboard/id.lproj/Discover.strings"; sourceTree = "<group>"; };
+		D63561AD29C945BF00F14B2C /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D63561AE29C945C000F14B2C /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Main.strings; sourceTree = "<group>"; };
+		D63A806F29A6464B00D65DBC /* Halal Food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Halal Food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63A807229A6464B00D65DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D63A807429A6464B00D65DBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D63A807929A6464B00D65DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D63A807B29A6464C00D65DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D63A807E29A6464C00D65DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D63A808029A6464C00D65DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D63A808629A6476700D65DBC /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		D64449FF29AECE270035FC23 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		D6444A0129AED0EF0035FC23 /* NewRestaurantController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantController.swift; sourceTree = "<group>"; };
+		D64F3D0C29C9CA7B00A3C7AA /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D65B407029ACAF41006F1A0B /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		D661258B29AC940B009103C1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		D661466529ACD05C00655052 /* RestaurantDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailMapCell.swift; sourceTree = "<group>"; };
+		D661466729ACE9CD00655052 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D662B10B29B8AE8400DE2BD5 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		D674D56C29B685D700979E9C /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		D674D56E29B68AFA00979E9C /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		D6775CA629ADD626003DA003 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		D6784BF129BFEA350021392E /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		D6789D6229B5F1C2000AA824 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		D67927E729B609DE00EF53B1 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		D679BDFB29AB22F5008AD526 /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		D67CEE2529AB773300EDB570 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		D67CEE2629AB773300EDB570 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D67CEE2729AB773300EDB570 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		D67CEE2829AB773300EDB570 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		D67CEE2929AB773300EDB570 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D67CEE2A29AB773300EDB570 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		D67CEE2B29AB773300EDB570 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		D67CEE2C29AB773300EDB570 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D67CEE2D29AB773300EDB570 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D67CEE2E29AB773300EDB570 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		D67CEE2F29AB773300EDB570 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D67CEE3029AB773300EDB570 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		D67CEE3129AB773300EDB570 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D67CEE3229AB773300EDB570 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D67CEE3329AB773300EDB570 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		D67CEE3429AB773300EDB570 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D67CEE4529AB7E6600EDB570 /* RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
+		D67CEE4729AB93BD00EDB570 /* RestaurantDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTextCell.swift; sourceTree = "<group>"; };
+		D67CEE4929AB973600EDB570 /* RestaurantDetailTwoColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTwoColumnCell.swift; sourceTree = "<group>"; };
+		D682A4F729B884840057A10E /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		D682A4F929B88F340057A10E /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D68D84CA29BD13A3004DC5DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6AE21F629B77A0C003D44F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Halal Food/Storyboard/Base.lproj/About.storyboard"; sourceTree = "<group>"; };
+		D6B84F0229B77D2900A378BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Halal Food/Storyboard/Base.lproj/Discover.storyboard"; sourceTree = "<group>"; };
+		D6D2F3F829B3082400BFEC84 /* HalalFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HalalFood.xcdatamodel; sourceTree = "<group>"; };
+		D6DAAB6329A8F9C300409845 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		D6E5F1F729AA4BFA00892C63 /* RestaurantDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDiffableDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D63A806C29A6464B00D65DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				668BE8D4B902BDE184D783D7 /* Pods_Halal_Food.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		178D2D18BC2CDB83117FE452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C98CF53A68832F99496536A /* Pods_Halal_Food.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58BBABD3528640F8A56BA4A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EF4E5FE28309522A84FDA44 /* Pods-Halal Food.debug.xcconfig */,
+				77045AB242DED41112A8E47C /* Pods-Halal Food.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D63A806629A6464B00D65DBC = {
+			isa = PBXGroup;
+			children = (
+				D63A807129A6464B00D65DBC /* Halal Food */,
+				D63A807029A6464B00D65DBC /* Products */,
+				58BBABD3528640F8A56BA4A3 /* Pods */,
+				178D2D18BC2CDB83117FE452 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D63A807029A6464B00D65DBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D63A806F29A6464B00D65DBC /* Halal Food.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D63A807129A6464B00D65DBC /* Halal Food */ = {
+			isa = PBXGroup;
+			children = (
+				D68D84CA29BD13A3004DC5DB /* GoogleService-Info.plist */,
+				D661258A29AC93E9009103C1 /* Extensions */,
+				D67CEE2329AB76DA00EDB570 /* Resources */,
+				D6E5F1F629AA456000892C63 /* Storyboard */,
+				D6E5F1F529AA454A00892C63 /* View */,
+				D6E5F1F429AA454200892C63 /* Model */,
+				D6E5F1F329AA451B00892C63 /* Controller */,
+				D63A807229A6464B00D65DBC /* AppDelegate.swift */,
+				D63A807429A6464B00D65DBC /* SceneDelegate.swift */,
+				D63A807B29A6464C00D65DBC /* Assets.xcassets */,
+				D63A808029A6464C00D65DBC /* Info.plist */,
+				D64F3D0B29C9CA7B00A3C7AA /* Localizable.strings */,
+				D6D2F3F729B3082400BFEC84 /* HalalFood.xcdatamodeld */,
+			);
+			path = "Halal Food";
+			sourceTree = "<group>";
+		};
+		D661258A29AC93E9009103C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D661258B29AC940B009103C1 /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D67CEE2329AB76DA00EDB570 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D67CEE2429AB76E400EDB570 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D67CEE2429AB76E400EDB570 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D67CEE2E29AB773300EDB570 /* Nunito-Black.ttf */,
+				D67CEE2629AB773300EDB570 /* Nunito-BlackItalic.ttf */,
+				D67CEE3029AB773300EDB570 /* Nunito-Bold.ttf */,
+				D67CEE3129AB773300EDB570 /* Nunito-BoldItalic.ttf */,
+				D67CEE2D29AB773300EDB570 /* Nunito-ExtraBold.ttf */,
+				D67CEE3429AB773300EDB570 /* Nunito-ExtraBoldItalic.ttf */,
+				D67CEE2F29AB773300EDB570 /* Nunito-ExtraLight.ttf */,
+				D67CEE2C29AB773300EDB570 /* Nunito-ExtraLightItalic.ttf */,
+				D67CEE2529AB773300EDB570 /* Nunito-Italic.ttf */,
+				D67CEE2A29AB773300EDB570 /* Nunito-Light.ttf */,
+				D67CEE2729AB773300EDB570 /* Nunito-LightItalic.ttf */,
+				D67CEE2B29AB773300EDB570 /* Nunito-Medium.ttf */,
+				D67CEE3229AB773300EDB570 /* Nunito-MediumItalic.ttf */,
+				D67CEE2829AB773300EDB570 /* Nunito-Regular.ttf */,
+				D67CEE3329AB773300EDB570 /* Nunito-SemiBold.ttf */,
+				D67CEE2929AB773300EDB570 /* Nunito-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D6E5F1F329AA451B00892C63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D63A808629A6476700D65DBC /* RestaurantTableViewController.swift */,
+				D679BDFB29AB22F5008AD526 /* RestaurantDetailViewController.swift */,
+				D65B407029ACAF41006F1A0B /* NavigationController.swift */,
+				D661466729ACE9CD00655052 /* MapViewController.swift */,
+				D6775CA629ADD626003DA003 /* ReviewViewController.swift */,
+				D6444A0129AED0EF0035FC23 /* NewRestaurantController.swift */,
+				D67927E729B609DE00EF53B1 /* WalkthroughContentViewController.swift */,
+				D674D56C29B685D700979E9C /* WalkthroughPageViewController.swift */,
+				D674D56E29B68AFA00979E9C /* WalkthroughViewController.swift */,
+				D682A4F729B884840057A10E /* AboutTableViewController.swift */,
+				D682A4F929B88F340057A10E /* WebViewController.swift */,
+				D662B10B29B8AE8400DE2BD5 /* DiscoverTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6E5F1F429AA454200892C63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6DAAB6329A8F9C300409845 /* Restaurant.swift */,
+				D6E5F1F729AA4BFA00892C63 /* RestaurantDiffableDataSource.swift */,
+				D6784BF129BFEA350021392E /* Discover.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6E5F1F529AA454A00892C63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6331BC029A8318500B1A96B /* RestaurantTableViewCell.swift */,
+				D67CEE4529AB7E6600EDB570 /* RestaurantDetailHeaderView.swift */,
+				D67CEE4729AB93BD00EDB570 /* RestaurantDetailTextCell.swift */,
+				D67CEE4929AB973600EDB570 /* RestaurantDetailTwoColumnCell.swift */,
+				D661466529ACD05C00655052 /* RestaurantDetailMapCell.swift */,
+				D64449FF29AECE270035FC23 /* RoundedTextField.swift */,
+				D6331A6C29C9209000AE1030 /* DiscoverTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6E5F1F629AA456000892C63 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE21F529B77A0C003D44F7 /* About.storyboard */,
+				D6B84F0129B77D2900A378BE /* Discover.storyboard */,
+				D63A807D29A6464C00D65DBC /* LaunchScreen.storyboard */,
+				D63A807829A6464B00D65DBC /* Main.storyboard */,
+				D6789D6229B5F1C2000AA824 /* Onboarding.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D63A806E29A6464B00D65DBC /* Halal Food */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D63A808329A6464C00D65DBC /* Build configuration list for PBXNativeTarget "Halal Food" */;
+			buildPhases = (
+				4D39B295BBBE14B929CAF704 /* [CP] Check Pods Manifest.lock */,
+				D63A806B29A6464B00D65DBC /* Sources */,
+				D63A806C29A6464B00D65DBC /* Frameworks */,
+				D63A806D29A6464B00D65DBC /* Resources */,
+				F8A84A8B7FC78C907D5475D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Halal Food";
+			productName = "Halal Food";
+			productReference = D63A806F29A6464B00D65DBC /* Halal Food.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D63A806729A6464B00D65DBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D63A806E29A6464B00D65DBC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D63A806A29A6464B00D65DBC /* Build configuration list for PBXProject "Halal Food" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+			);
+			mainGroup = D63A806629A6464B00D65DBC;
+			productRefGroup = D63A807029A6464B00D65DBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D63A806E29A6464B00D65DBC /* Halal Food */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D63A806D29A6464B00D65DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63A807F29A6464C00D65DBC /* LaunchScreen.storyboard in Resources */,
+				D67CEE4029AB773300EDB570 /* Nunito-Bold.ttf in Resources */,
+				D67CEE4129AB773300EDB570 /* Nunito-BoldItalic.ttf in Resources */,
+				D6B84F0329B77D2900A378BE /* Discover.storyboard in Resources */,
+				D67CEE3F29AB773300EDB570 /* Nunito-ExtraLight.ttf in Resources */,
+				D67CEE3529AB773300EDB570 /* Nunito-Italic.ttf in Resources */,
+				D67CEE3A29AB773300EDB570 /* Nunito-Light.ttf in Resources */,
+				D67CEE3D29AB773300EDB570 /* Nunito-ExtraBold.ttf in Resources */,
+				D63A807C29A6464C00D65DBC /* Assets.xcassets in Resources */,
+				D6AE21F729B77A0C003D44F7 /* About.storyboard in Resources */,
+				D67CEE3B29AB773300EDB570 /* Nunito-Medium.ttf in Resources */,
+				D63A807A29A6464B00D65DBC /* Main.storyboard in Resources */,
+				D67CEE3929AB773300EDB570 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				D64F3D0D29C9CA7B00A3C7AA /* Localizable.strings in Resources */,
+				D6789D6329B5F1C2000AA824 /* Onboarding.storyboard in Resources */,
+				D67CEE3829AB773300EDB570 /* Nunito-Regular.ttf in Resources */,
+				D67CEE4329AB773300EDB570 /* Nunito-SemiBold.ttf in Resources */,
+				D67CEE3E29AB773300EDB570 /* Nunito-Black.ttf in Resources */,
+				D67CEE3C29AB773300EDB570 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				D67CEE3729AB773300EDB570 /* Nunito-LightItalic.ttf in Resources */,
+				D68D84CB29BD13A3004DC5DB /* GoogleService-Info.plist in Resources */,
+				D67CEE4229AB773300EDB570 /* Nunito-MediumItalic.ttf in Resources */,
+				D67CEE3629AB773300EDB570 /* Nunito-BlackItalic.ttf in Resources */,
+				D67CEE4429AB773300EDB570 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D39B295BBBE14B929CAF704 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Halal Food-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A84A8B7FC78C907D5475D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Halal Food/Pods-Halal Food-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Halal Food/Pods-Halal Food-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Halal Food/Pods-Halal Food-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D63A806B29A6464B00D65DBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DAAB6429A8F9C300409845 /* Restaurant.swift in Sources */,
+				D65B407129ACAF41006F1A0B /* NavigationController.swift in Sources */,
+				D674D56D29B685D700979E9C /* WalkthroughPageViewController.swift in Sources */,
+				D682A4F829B884840057A10E /* AboutTableViewController.swift in Sources */,
+				D6444A0229AED0EF0035FC23 /* NewRestaurantController.swift in Sources */,
+				D6775CA729ADD626003DA003 /* ReviewViewController.swift in Sources */,
+				D67CEE4829AB93BD00EDB570 /* RestaurantDetailTextCell.swift in Sources */,
+				D6331BC129A8318500B1A96B /* RestaurantTableViewCell.swift in Sources */,
+				D63A807329A6464B00D65DBC /* AppDelegate.swift in Sources */,
+				D67CEE4A29AB973600EDB570 /* RestaurantDetailTwoColumnCell.swift in Sources */,
+				D6D2F3F929B3082400BFEC84 /* HalalFood.xcdatamodeld in Sources */,
+				D63A807529A6464B00D65DBC /* SceneDelegate.swift in Sources */,
+				D6E5F1F829AA4BFA00892C63 /* RestaurantDiffableDataSource.swift in Sources */,
+				D661466629ACD05C00655052 /* RestaurantDetailMapCell.swift in Sources */,
+				D6331A6D29C9209000AE1030 /* DiscoverTableViewCell.swift in Sources */,
+				D682A4FA29B88F340057A10E /* WebViewController.swift in Sources */,
+				D67927E829B609DE00EF53B1 /* WalkthroughContentViewController.swift in Sources */,
+				D679BDFC29AB22F5008AD526 /* RestaurantDetailViewController.swift in Sources */,
+				D674D56F29B68AFA00979E9C /* WalkthroughViewController.swift in Sources */,
+				D6444A0029AECE270035FC23 /* RoundedTextField.swift in Sources */,
+				D661258C29AC940B009103C1 /* UIColorExtension.swift in Sources */,
+				D67CEE4629AB7E6600EDB570 /* RestaurantDetailHeaderView.swift in Sources */,
+				D6784BF229BFEA350021392E /* Discover.swift in Sources */,
+				D63A808729A6476700D65DBC /* RestaurantTableViewController.swift in Sources */,
+				D662B10C29B8AE8400DE2BD5 /* DiscoverTableViewController.swift in Sources */,
+				D661466829ACE9CD00655052 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D63A807829A6464B00D65DBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63A807929A6464B00D65DBC /* Base */,
+				D63561AE29C945C000F14B2C /* id */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D63A807D29A6464C00D65DBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D63A807E29A6464C00D65DBC /* Base */,
+				D63561AD29C945BF00F14B2C /* id */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D64F3D0B29C9CA7B00A3C7AA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D64F3D0C29C9CA7B00A3C7AA /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D6AE21F529B77A0C003D44F7 /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6AE21F629B77A0C003D44F7 /* Base */,
+				D63561AB29C945BE00F14B2C /* id */,
+			);
+			name = About.storyboard;
+			sourceTree = "<group>";
+		};
+		D6B84F0129B77D2900A378BE /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6B84F0229B77D2900A378BE /* Base */,
+				D63561AC29C945BF00F14B2C /* id */,
+			);
+			name = Discover.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D63A808129A6464C00D65DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LOCALIZATION_EXPORT_SUPPORTED = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D63A808229A6464C00D65DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LOCALIZATION_EXPORT_SUPPORTED = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D63A808429A6464C00D65DBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF4E5FE28309522A84FDA44 /* Pods-Halal Food.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WPG5J57J5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Halal Food/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Halal Food";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.signal.Halal-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D63A808529A6464C00D65DBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77045AB242DED41112A8E47C /* Pods-Halal Food.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WPG5J57J5Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Halal Food/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Halal Food";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "id.signal.Halal-Food";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D63A806A29A6464B00D65DBC /* Build configuration list for PBXProject "Halal Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63A808129A6464C00D65DBC /* Debug */,
+				D63A808229A6464C00D65DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D63A808329A6464C00D65DBC /* Build configuration list for PBXNativeTarget "Halal Food" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D63A808429A6464C00D65DBC /* Debug */,
+				D63A808529A6464C00D65DBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D6D2F3F729B3082400BFEC84 /* HalalFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D6D2F3F829B3082400BFEC84 /* HalalFood.xcdatamodel */,
+			);
+			currentVersion = D6D2F3F829B3082400BFEC84 /* HalalFood.xcdatamodel */;
+			path = HalalFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D63A806729A6464B00D65DBC /* Project object */;
+}

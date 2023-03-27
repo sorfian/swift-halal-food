@@ -1,0 +1,126 @@
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "0YI-pu-y0g"; */
+"0YI-pu-y0g.title" = "Item";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "1YZ-sB-m5N"; */
+"1YZ-sB-m5N.text" = "Type";
+
+/* Class = "UILabel"; text = "PHONE"; ObjectID = "02q-dn-zdT"; */
+"02q-dn-zdT.text" = "PHONE";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "4Pe-nq-gU6"; */
+"4Pe-nq-gU6.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4tH-bo-0OR"; */
+"4tH-bo-0OR.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Fill in the restaurant name"; ObjectID = "5iB-4U-rOZ"; */
+"5iB-4U-rOZ.placeholder" = "Fill in the restaurant name";
+
+/* Class = "UIButton"; configuration.title = "Rate it"; ObjectID = "5po-5D-G9F"; */
+"5po-5D-G9F.configuration.title" = "Rate it";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5po-5D-G9F"; */
+"5po-5D-G9F.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Fill in the restaurant address"; ObjectID = "6iZ-4N-pOw"; */
+"6iZ-4N-pOw.placeholder" = "Fill in the restaurant address";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "8bc-m7-nrE"; */
+"8bc-m7-nrE.text" = "Phone Number";
+
+/* Class = "UILabel"; text = "DESCRIPTION"; ObjectID = "8VE-f5-i0q"; */
+"8VE-f5-i0q.text" = "DESCRIPTION";
+
+/* Class = "UIButton"; configuration.title = "Terrible"; ObjectID = "aDD-bg-vNu"; */
+"aDD-bg-vNu.configuration.title" = "Terrible";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aDD-bg-vNu"; */
+"aDD-bg-vNu.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Bad"; ObjectID = "aVc-Xf-DGR"; */
+"aVc-Xf-DGR.configuration.title" = "Bad";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aVc-Xf-DGR"; */
+"aVc-Xf-DGR.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Favorites"; ObjectID = "BVk-ty-PGZ"; */
+"BVk-ty-PGZ.title" = "Favorites";
+
+/* Class = "UITextView"; text = "A great restaurant to try out"; ObjectID = "CIp-iL-y7H"; */
+"CIp-iL-y7H.text" = "A great restaurant to try out";
+
+/* Class = "UILabel"; text = "NAME"; ObjectID = "Ez6-2j-Qs2"; */
+"Ez6-2j-Qs2.text" = "NAME";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "G1i-ui-sS5"; */
+"G1i-ui-sS5.text" = "Type";
+
+/* Class = "UINavigationItem"; title = "Halal Food"; ObjectID = "GDm-LC-UJ1"; */
+"GDm-LC-UJ1.title" = "Halal Food";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "Hsb-jI-wGU"; */
+"Hsb-jI-wGU.title" = "Save";
+
+/* Class = "UILabel"; text = "TYPE"; ObjectID = "JLi-a2-XZW"; */
+"JLi-a2-XZW.text" = "TYPE";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "Kfm-9l-53Z"; */
+"Kfm-9l-53Z.text" = "Location";
+
+/* Class = "UILabel"; text = "Full Address"; ObjectID = "kMx-Hj-DB4"; */
+"kMx-Hj-DB4.text" = "Full Address";
+
+/* Class = "UITextField"; placeholder = "Fill in the restaurant phone"; ObjectID = "kt7-w8-G2e"; */
+"kt7-w8-G2e.placeholder" = "Fill in the restaurant phone";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "lIt-pm-zLh"; */
+"lIt-pm-zLh.text" = "Location";
+
+/* Class = "UIButton"; configuration.title = "Okay"; ObjectID = "MBy-pa-V7O"; */
+"MBy-pa-V7O.configuration.title" = "Okay";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MBy-pa-V7O"; */
+"MBy-pa-V7O.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "New Restaurant"; ObjectID = "nK6-2F-1cx"; */
+"nK6-2F-1cx.title" = "New Restaurant";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "nrw-5V-Pn8"; */
+"nrw-5V-Pn8.title" = "Item";
+
+/* Class = "UIButton"; configuration.title = "Awesome"; ObjectID = "O1V-dv-bAC"; */
+"O1V-dv-bAC.configuration.title" = "Awesome";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "O1V-dv-bAC"; */
+"O1V-dv-bAC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "qol-Q3-kAX"; */
+"qol-Q3-kAX.text" = "Name";
+
+/* Class = "UITextField"; placeholder = "Fill in the restaurant type"; ObjectID = "r9D-Ja-MYy"; */
+"r9D-Ja-MYy.placeholder" = "Fill in the restaurant type";
+
+/* Class = "UILabel"; text = "Type"; ObjectID = "UXq-Yp-Ose"; */
+"UXq-Yp-Ose.text" = "Type";
+
+/* Class = "UIButton"; configuration.title = "Good"; ObjectID = "Vrn-cJ-sVL"; */
+"Vrn-cJ-sVL.configuration.title" = "Good";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Vrn-cJ-sVL"; */
+"Vrn-cJ-sVL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "wjP-p5-rKg"; */
+"wjP-p5-rKg.text" = "Description";
+
+/* Class = "UILabel"; text = "PHONE"; ObjectID = "YfC-ZU-o6e"; */
+"YfC-ZU-o6e.text" = "PHONE";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "yrr-Mh-skN"; */
+"yrr-Mh-skN.text" = "Name";
+
+/* Class = "UILabel"; text = "ADDRESS"; ObjectID = "zm4-Jj-JTJ"; */
+"zm4-Jj-JTJ.text" = "ADDRESS";
+
+/* Class = "UILabel"; text = "ADDRESS"; ObjectID = "ZqP-kr-8Ye"; */
+"ZqP-kr-8Ye.text" = "ADDRESS";
+
