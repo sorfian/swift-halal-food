@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		668BE8D4B902BDE184D783D7 /* Pods_Halal_Food.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98CF53A68832F99496536A /* Pods_Halal_Food.framework */; };
+		D620D49729D2BE1E00B4CB1E /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D620D49629D2BE1E00B4CB1E /* RouteTableViewController.swift */; };
 		D6331A6D29C9209000AE1030 /* DiscoverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6331A6C29C9209000AE1030 /* DiscoverTableViewCell.swift */; };
 		D6331BC129A8318500B1A96B /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6331BC029A8318500B1A96B /* RestaurantTableViewCell.swift */; };
 		D63A807329A6464B00D65DBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D63A807229A6464B00D65DBC /* AppDelegate.swift */; };
@@ -64,6 +65,7 @@
 		4EF4E5FE28309522A84FDA44 /* Pods-Halal Food.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Halal Food.debug.xcconfig"; path = "Target Support Files/Pods-Halal Food/Pods-Halal Food.debug.xcconfig"; sourceTree = "<group>"; };
 		6C98CF53A68832F99496536A /* Pods_Halal_Food.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Halal_Food.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77045AB242DED41112A8E47C /* Pods-Halal Food.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Halal Food.release.xcconfig"; path = "Target Support Files/Pods-Halal Food/Pods-Halal Food.release.xcconfig"; sourceTree = "<group>"; };
+		D620D49629D2BE1E00B4CB1E /* RouteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
 		D6331A6C29C9209000AE1030 /* DiscoverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewCell.swift; sourceTree = "<group>"; };
 		D6331BC029A8318500B1A96B /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		D63561AB29C945BE00F14B2C /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = "Halal Food/Storyboard/id.lproj/About.strings"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				D682A4F729B884840057A10E /* AboutTableViewController.swift */,
 				D682A4F929B88F340057A10E /* WebViewController.swift */,
 				D662B10B29B8AE8400DE2BD5 /* DiscoverTableViewController.swift */,
+				D620D49629D2BE1E00B4CB1E /* RouteTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				D679BDFC29AB22F5008AD526 /* RestaurantDetailViewController.swift in Sources */,
 				D674D56F29B68AFA00979E9C /* WalkthroughViewController.swift in Sources */,
 				D6444A0029AECE270035FC23 /* RoundedTextField.swift in Sources */,
+				D620D49729D2BE1E00B4CB1E /* RouteTableViewController.swift in Sources */,
 				D661258C29AC940B009103C1 /* UIColorExtension.swift in Sources */,
 				D67CEE4629AB7E6600EDB570 /* RestaurantDetailHeaderView.swift in Sources */,
 				D6784BF229BFEA350021392E /* Discover.swift in Sources */,

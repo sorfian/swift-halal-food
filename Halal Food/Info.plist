@@ -6,6 +6,8 @@
 	<string>You need to grant the app access to your camera in order to take photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>You need to grant the app access to your photo library so you can pick your favorite restaurant photo.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need to find out your current location in order to compute the route.</string>
 	<key>MKDirectionsApplicationSupportedModes</key>
 	<array/>
 	<key>UIAppFonts</key>

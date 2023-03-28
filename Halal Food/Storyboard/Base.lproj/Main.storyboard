@@ -412,7 +412,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="mapView" destination="aza-hS-Kkx" id="I2X-wi-WgF"/>
-                                            <segue destination="qCJ-vm-yV7" kind="show" identifier="showMap" id="s3A-Dr-xGB"/>
+                                            <segue destination="qCJ-vm-yV7" kind="presentation" identifier="showMap" modalPresentationStyle="fullScreen" id="s3A-Dr-xGB"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -458,24 +458,143 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
+                            <button opaque="NO" clipsSubviews="YES" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcK-Fu-3rQ">
+                                <rect key="frame" x="342" y="59" width="35" height="35"/>
+                                <color key="backgroundColor" red="0.152610153" green="0.16296997669999999" blue="0.20770704749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="XvN-QY-3AC"/>
+                                    <constraint firstAttribute="height" constant="35" id="zwP-8U-iHD"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="xmark" catalog="system">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="17.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="lyh-e5-oGg" kind="unwind" unwindAction="unwindToDetailViewControllerWithSegue:" id="ld9-9u-pnB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMW-m8-AAu">
+                                <rect key="frame" x="343" y="102" width="34" height="34"/>
+                                <color key="backgroundColor" red="0.1137254902" green="0.1215686275" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="34" id="Ewm-Aa-n7n"/>
+                                    <constraint firstAttribute="height" constant="34" id="zqb-3v-3mg"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="safari" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showDirectionWithSender:" destination="qCJ-vm-yV7" eventType="touchUpInside" id="mFV-Cf-ghg"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1uP-Il-dL2">
+                                <rect key="frame" x="240" y="787" width="137" height="32"/>
+                                <segments>
+                                    <segment title="Car"/>
+                                    <segment title="Walking"/>
+                                </segments>
+                            </segmentedControl>
+                            <button opaque="NO" alpha="0.5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgg-fo-NIN">
+                                <rect key="frame" x="343" y="144" width="34" height="34"/>
+                                <color key="backgroundColor" red="0.1137254902" green="0.1215686275" blue="0.15686274510000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="8vI-5H-5CN"/>
+                                    <constraint firstAttribute="width" constant="34" id="aWO-aw-tQD"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="repeat" catalog="system"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="showNearby:" destination="qCJ-vm-yV7" eventType="touchUpInside" id="UsB-1I-dKk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="apD-96-y5c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gcA-FW-0hF" firstAttribute="leading" secondItem="apD-96-y5c" secondAttribute="leading" id="24c-I1-9cu"/>
                             <constraint firstItem="gcA-FW-0hF" firstAttribute="top" secondItem="Sbn-d3-Lim" secondAttribute="top" id="4Wz-X5-iQ9"/>
+                            <constraint firstItem="gcK-Fu-3rQ" firstAttribute="top" secondItem="apD-96-y5c" secondAttribute="top" id="7TJ-Rt-wLm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Wgg-fo-NIN" secondAttribute="trailing" id="HSR-le-tBr">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="1uP-Il-dL2" secondAttribute="trailing" id="Hud-3o-uhi"/>
+                            <constraint firstItem="VMW-m8-AAu" firstAttribute="top" secondItem="gcK-Fu-3rQ" secondAttribute="bottom" constant="8" id="Pip-Z5-pCl"/>
+                            <constraint firstItem="Wgg-fo-NIN" firstAttribute="top" secondItem="VMW-m8-AAu" secondAttribute="bottom" constant="8" id="UaL-pW-XO9"/>
                             <constraint firstItem="gcA-FW-0hF" firstAttribute="trailing" secondItem="apD-96-y5c" secondAttribute="trailing" id="Wh6-2T-vjp"/>
+                            <constraint firstItem="gcK-Fu-3rQ" firstAttribute="trailing" secondItem="Sbn-d3-Lim" secondAttribute="trailingMargin" id="byV-dH-x0C"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VMW-m8-AAu" secondAttribute="trailing" id="cPH-Us-Ghc"/>
                             <constraint firstAttribute="bottom" secondItem="gcA-FW-0hF" secondAttribute="bottom" id="qA4-MO-2HD"/>
+                            <constraint firstItem="apD-96-y5c" firstAttribute="bottom" secondItem="1uP-Il-dL2" secondAttribute="bottom" id="vJ1-ZB-bAl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nTD-4j-43G"/>
                     <connections>
                         <outlet property="mapView" destination="gcA-FW-0hF" id="8Dl-QB-rob"/>
+                        <outlet property="segmentedControl" destination="1uP-Il-dL2" id="8LS-Sw-8bV"/>
+                        <segue destination="UCt-45-X2b" kind="presentation" identifier="showSteps" id="eEO-Oc-eCK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3bg-0q-hxG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="lyh-e5-oGg" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1582.4427480916029" y="-404.22535211267609"/>
+        </scene>
+        <!--Steps-->
+        <scene sceneID="AMn-Ma-G9H">
+            <objects>
+                <tableViewController id="hcA-sw-BYf" customClass="RouteTableViewController" customModule="Halal_Food" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="jWd-J7-xd8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="stepscell" id="w4A-hj-BlV">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w4A-hj-BlV" id="ay2-FC-UT6">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="hcA-sw-BYf" id="AgB-Ly-w3C"/>
+                            <outlet property="delegate" destination="hcA-sw-BYf" id="Khb-s6-zmB"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Steps" id="MVY-75-zYo">
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="QC4-PC-3OH">
+                            <color key="tintColor" systemColor="labelColor"/>
+                            <connections>
+                                <action selector="close:" destination="hcA-sw-BYf" id="68B-vX-ySu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4gC-pe-T4O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3321.3740458015268" y="-396.47887323943667"/>
         </scene>
         <!--New Restaurant-->
         <scene sceneID="lM5-Sx-67J">
@@ -725,7 +844,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yed-Ue-MKn">
-                                <rect key="frame" x="73.666666666666671" y="150.66666666666663" width="245.66666666666663" height="551"/>
+                                <rect key="frame" x="73.666666666666671" y="150.66666666666663" width="245.66666666666663" height="551.00000000000011"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1V-dv-bAC">
                                         <rect key="frame" x="0.0" y="0.0" width="245.66666666666666" height="96"/>
@@ -890,6 +1009,24 @@
             </objects>
             <point key="canvasLocation" x="-1129" y="-1013"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NFm-hD-rxE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UCt-45-X2b" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bgo-h8-zma">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hcA-sw-BYf" kind="relationship" relationship="rootViewController" id="c0Y-U2-1lj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nwj-cM-W2M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2394.6564885496182" y="-396.47887323943667"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="x9F-69-qjE"/>
@@ -904,7 +1041,9 @@
         <image name="love" width="78" height="82"/>
         <image name="newphoto" width="1840" height="1380"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="repeat" catalog="system" width="128" height="98"/>
         <image name="sad" width="78" height="87"/>
+        <image name="safari" catalog="system" width="128" height="123"/>
         <image name="tag.fill" catalog="system" width="128" height="118"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="NavigationBarTitle">
